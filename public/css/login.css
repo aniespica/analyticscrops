@@ -1,0 +1,96 @@
+body {
+  font-family: helvetica, Arial, sans-serif;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+#yt-masthead-container {
+  width: 100%;
+  height: 64px;
+  background-color: #fafafa;
+  box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1), inset 0 -1px 0 rgba(0,0,0,0.07);
+  border-width: 0 0 0 4px;
+}
+#yt-masthead-container .logo1 {
+  max-width: 250px;
+  padding-top: 7px;
+}
+#Spinner {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 47px);
+  background: #2196f3;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #fff;
+  width: 80px;
+  text-align: center;
+  display: none;
+}
+#Alert {
+  position: absolute;
+  top: calc(50% - 98px / 2);
+  left: calc(50% - 351px / 2);
+  border-radius: 10px;
+  color: #fff;
+  padding: 50px;
+}
+#Alert.success {
+  background: rgba(0,88,4,0.8);
+}
+#Alert.error {
+  background: rgba(88,0,0,0.8);
+}
+#Alert.warning {
+  background: rgba(88,85,0,0.8);
+}
+#Alert .box-button {
+  padding-top: 25px;
+  font-size: medium;
+  text-align: left;
+}
+#Alert .box-button a {
+  text-decoration: none;
+  color: #2196f3;
+}
+.message {
+  margin-bottom: 5px;
+  font-size: small;
+  text-align: left;
+  display: block;
+  color: #f00;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.box {
+  max-width: 274px;
+  padding: 40px;
+  background-color: #fafafa;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+.box label {
+  display: block;
+  color: #737373;
+  text-align: left;
+  padding: 5px;
+}
+.box input {
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 10px;
+  font-size: medium;
+}
+.box input[type='submit'] {
+  color: #fff;
+  background-color: #2196f3;
+  margin: 0;
+}
+.max-width180 {
+  max-width: 180px;
+}

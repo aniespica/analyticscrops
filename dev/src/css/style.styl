@@ -1,0 +1,433 @@
+/*Font Icon*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/font/icomoon.eot');
+  src:  url('/font/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('/font/icomoon.ttf') format('truetype'),
+    url('/font/icomoon.woff') format('woff'),
+    url('/font/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#spinner
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  text-align: center;
+  img
+    margin-top: calc( (100vh - 50px) / 2);
+    width: 50px;
+#body-content
+  width 100%
+  position relative
+  padding 60px 0px 0px 0px
+#map
+  height 300px
+#backgroundForm
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 60;
+  display none
+#PageContainer
+  .titleForm
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f7fbff;
+    padding-bottom: 10px;
+    background: #506d83;
+    font-weight bold
+  div
+    .row
+      padding: 10px
+      border-bottom: 1px solid
+      border-color: #d8dde6;
+      .columns
+        border none
+        label
+          color: #7789a2
+          input
+            background: none;
+            border: none;
+            box-shadow: none;
+            border-bottom: 1px solid #7789a2;
+            color: #0e203a;
+            &[type=checkbox]
+              display block
+#formContainer1
+#formContainer2
+  position: absolute;
+  display none
+  top: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(11, 25, 46, 0.5);
+  z-index: 70;
+  border-radius: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  .closeForme
+    position absolute
+    right 0
+    cursor pointer
+    &:before
+      content: '\e921';
+      color: #142e53;
+      font-size: larger;
+  .titleForm
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #142e53;
+    border-bottom: 2px solid #dbdbdb;
+    padding-bottom: 10px;
+  .formContent
+    max-height: 475px;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+    .subTitleForm
+      background-color: #e7ecf4;
+      padding: 5px 10px;
+      color: #142e53;
+      font-weight: 500;
+      border-radius: 5px;
+      margin: 10px;
+    .small-6.column
+      width 100%
+      label
+        font-size: 12px;
+        color: #28374b;
+      input
+        border-radius: 5px;
+        height: 35px;
+        box-shadow: none;
+  .formSectionButtons
+    margin-bottom: 0;
+    border-top: 2px solid #dbdbdb;
+    text-align: right;
+    padding: 10px;
+    background-color: #f6f6f6;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    .button
+      border-radius: 5px;
+    a.button
+      background-color: #ffffff;
+      color: #115286;
+      border: 1px solid #d4d4d4;
+      margin-right: 20px !important;
+      &:hover
+        background-color: #f4f4f4;
+        color: #115286;
+@media print, screen and (min-width: 40em)
+  #formContainer1
+  #formContainer2
+    max-height: 600px;
+    max-width: 600px;
+    top: calc((100vh - 600px)/2);
+    left: calc((100% - 650px)/2);
+    border-radius: 10px;
+    .formContent
+      .small-6.column
+        width 50%
+#CropContent
+  .headerTitle
+    background-color: #f7fbff
+    padding: 20px;
+    color:rgb(22, 50, 92);
+    padding-bottom: 0;
+    a
+      color: rgb(22, 50, 92);
+    .dropdown.menu > li.is-dropdown-submenu-parent > a
+      font-weight 500
+      margin-left: -15px;
+      &:after
+        border-color rgb(22, 50, 92) transparent transparent
+    .row
+      .small-4.column
+        text-align: right;
+        .hollow
+          background-color: white;
+          border-radius: 5px;
+          margin 5px 10px
+  .tableRow
+    padding 10px
+    padding-top 0
+  .row
+    max-width 100%
+    .link
+      cursor pointer
+      text-decoration underline
+      color rgb(0, 112, 210) !important
+    .columns
+      padding: 10px;
+      border: 1px solid;
+      border-right: none;
+      border-left: none;
+      font-weight 600
+      color: rgb(22, 50, 92)
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 12px;
+      border-color rgb(216, 221, 230)
+      border-bottom none
+    .actions
+      width 20%
+      height 40px
+      padding 10px 0
+      span[role=icon]
+        // display none
+        font-family icomoon
+        color: #023147;
+        font-weight lighter
+        font-size: large;
+        padding: 0 3px;
+        cursor pointer
+        &:hover
+          color #0072a8
+        &[data-icon=trash]
+          &:before
+            content '\e90c'
+        &[data-icon=write]
+          &:before
+            content '\e918'
+    &.header
+      .columns
+        color: #607D8B;
+        font-weight: bold;
+        text-transform: uppercase;
+    &.small-up-3>
+      .columns
+        &.large-expand
+          display none
+          width 40%
+          &:nth-child(2)
+            display block
+          &:nth-child(3)
+            display block
+@media print, screen and (min-width: 64em)
+  #CropContent
+    color blue
+    .row
+      .actions
+        width 5%
+        height 40px
+        span[role=icon]
+          padding 0
+          font-size: large !important
+      &.small-up-3>
+        .columns
+          &.large-expand
+            display block
+@media print, screen and (min-width: 40em)
+  #CropContent
+    color blue
+    .row
+      .actions
+        width 5%
+        height 40px
+        span[role=icon]
+          padding 0
+          font-size: small
+      &.small-up-3>
+        .columns
+          &.large-expand
+            width: 18.0003%;
+            display block
+      &.medium-up-5>
+        .columns
+          &.large-expand
+            width 23.75%    
+div[role=icon]
+	font-family icomoon
+	min-width 24px
+	min-height 24px
+	height 24px
+	width 24px
+#body-container
+	display flex
+#Headbar
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	height: 60px;
+	box-shadow 0 0 5px 0 rgba(0,0,0,.35)
+	z-index 52
+	display flex
+	justify-content: space-between;
+	figure
+		margin: 0;
+		height: 60px;
+		width: 255px;
+		max-width: 255px;
+		object-fit: cover;
+		img
+			width: 100%;
+	[role=profile]
+		width: 45px;
+		height: 45px;
+		border-radius: 255px;
+		overflow: hidden;
+		margin 5px
+		figure
+			width 45px
+			height 45px
+#ListWrapper
+	position: relative;
+	padding: 80px 0px 0 20px;
+	width: 100%;
+	.title
+		text-transform: capitalize;
+		color: #15270e;
+		font-size: 20px;
+		padding-bottom: 25px;
+		font-weight: 500;
+/*Menu*/
+@media print, screen and (min-width: 40em)
+  body
+    #NavBar
+      width 100%
+#NavBar
+  box-shadow 0 0 5px 0 rgba(0,0,0,.35)
+  height 100vh
+  overflow-y auto
+  position relative
+  z-index 51
+  max-width 255px
+  background-color white
+  width 60px
+  top 60px
+  div[role=icon]
+    left: 20px;
+    pointer-events: none;
+    position: absolute;
+    top: 19px;
+    z-index: 100;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,0.54)
+    &[data-icon=variable]
+      &:before
+        content '\e925'
+    &[data-icon=sensores]
+      &:before
+        content '\e906'
+    &[data-icon=user]
+      &:before
+        content '\e91c'
+    &[data-icon=crop]
+      &:before
+        content '\e916'
+    &[data-icon=create]
+      &:before
+        content '\e918'
+    &[data-icon=th-large]
+      left 200px
+      &:before
+        content '\e903'
+    &[data-icon=th-small]
+      left 20px
+      &:before
+        content '\e902'   
+	div[role=navElement], a[role=navElement] 
+		height: 60px;
+		position: relative;
+		border-collapse: collapse;
+		box-sizing: border-box;
+		-webkit-font-smoothing: antialiased;
+		-webkit-box-direction: normal;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		overflow: hidden;
+		&:first-child
+			border-bottom: 1px solid rgba(0,0,0,0.08);
+		.navList
+			[role=barElement]
+				height 40px
+				.contentElement
+					height 40px
+					label
+						text-transform capitalize
+						height 40px
+						line-height 20px
+						font-weight normal
+		[role=barElement]
+			padding: 10px 15px;
+			border-radius: 2px
+			display: block
+			height: 60px
+			position: relative
+			overflow: visible
+			min-width: 255px
+			text-decoration none
+			&:hover
+				background-color rgb(234, 234, 234)
+			.contentElement
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-orient: horizontal;
+				-webkit-box-direction: normal;
+				-webkit-flex-direction: row;
+				flex-direction: row;
+				box-sizing: border-box;
+				position: relative;
+				overflow: visible;
+				height: 40px;
+				label
+				input
+					background-color: #fafafa;
+					color: #777;
+					font-size: 13px;
+					font-size: 14px;
+					box-sizing: border-box;
+					border: none;
+					box-shadow: none;
+					outline: none;
+					background: transparent;
+					width: 100%;
+					padding: 0 15px;
+					line-height: 40px;
+					height: 40px;
+					padding-left: 50px;
+				label
+					text-transform uppercase
+					font-weight 500
+					letter-spacing -0.6px
+					
+	#NavSearch
+		border-bottom: 1px solid rgba(0,0,0,0.08);
+		#BarSearch
+			margin: 10px 15px
+			padding 0 !important
+			&:hover
+				background-color white
+		div[role=icon]
+			&:before
+				content '\e91a'

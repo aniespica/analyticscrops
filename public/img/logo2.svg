@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 299 258" style="enable-background:new 0 0 299 258;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#757677;}
+	.st1{font-family:'HelveticaNeue';}
+	.st2{font-size:39.2124px;}
+	.st3{fill:#9DCD5B;}
+	.st4{fill:#62A344;}
+	.st5{fill:#67BC45;}
+	.st6{fill:url(#XMLID_205_);}
+	.st7{fill:#FEEB00;}
+	.st8{fill:#A2A336;}
+	.st9{fill:#D9E147;}
+</style>
+<text id="XMLID_160_" transform="matrix(1 0 0 1 14.9026 223.4695)" class="st0 st1 st2">Analytics Crops</text>
+<path id="XMLID_159_" class="st3" d="M206.1,26.5H183c-6.5,0-11.9,5.4-11.9,11.9V165h35c6.6,0,12-5.4,12-12V38.5
+	C218.1,31.9,212.7,26.5,206.1,26.5z"/>
+<path id="XMLID_158_" class="st4" d="M206.1,28.5H183c-6.5,0-11.9,5.4-11.9,11.9V167h35c6.6,0,12-5.4,12-12V40.5
+	C218.1,33.9,212.7,28.5,206.1,28.5z"/>
+<path id="XMLID_157_" class="st5" d="M206.1,27.5H183c-6.5,0-11.9,5.4-11.9,11.9V166h35c6.6,0,12-5.4,12-12V39.5
+	C218.1,32.9,212.7,27.5,206.1,27.5z"/>
+<linearGradient id="XMLID_205_" gradientUnits="userSpaceOnUse" x1="152.403" y1="118.9266" x2="200.2103" y2="118.9266">
+	<stop  offset="0" style="stop-color:#4F9637"/>
+	<stop  offset="1" style="stop-color:#68BD46"/>
+</linearGradient>
+<path id="XMLID_156_" class="st6" d="M171.1,166h35c6.6,0,12-5.4,12-12v-39l-47-43.2V166z"/>
+<path id="XMLID_155_" class="st7" d="M136.3,71.5c-6.6,0-12,5.4-12,12V118H92.6c-5.8,0-10.6,4.1-11.8,9.6v25.9
+	c0,1.9,0.5,3.7,1.2,5.3c2,3.7,6,6.2,10.5,6.2h43.8h0.2h34.5V71.5H136.3z"/>
+<path id="XMLID_154_" class="st8" d="M136.3,73.5c-6.6,0-12,5.4-12,12V120H92.6c-5.8,0-10.6,4.1-11.8,9.6v25.9
+	c0,1.9,0.5,3.7,1.2,5.3c2,3.7,6,6.2,10.5,6.2h43.8h0.2h34.5V73.5H136.3z"/>
+<path id="XMLID_153_" class="st9" d="M136.3,72.5c-6.6,0-12,5.4-12,12V119H92.6c-5.8,0-10.6,4.1-11.8,9.6v25.9
+	c0,1.9,0.5,3.7,1.2,5.3c2,3.7,6,6.2,10.5,6.2h43.8h0.2h34.5V72.5H136.3z"/>
+</svg>
